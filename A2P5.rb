@@ -1,5 +1,4 @@
 class Movie
-
     attr_accessor :title, :rating, :copies
     def initialize(title, rating, copies)
        @title = title
@@ -21,9 +20,7 @@ hp1 = Movie.new("Harry Potter & the Chamber of Secrets", "R", 33)
 in_stock.push hp1
 
 puts in_stock
-
 print "\nChanging rating of Harry Poter, and  amount of copies of Spider-man\n\n"
 hp1.rating = "PG-13"
 spdrman.copies = 7
-
 puts in_stock
